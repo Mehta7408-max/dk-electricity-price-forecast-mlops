@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T06:56:39.140820",
+  "checked_at": "2026-08-26T06:57:43.806300",
   "total_features": 18,
   "features_with_drift": 17,
   "drift_detected": true,
@@ -10,7 +10,7 @@
       "drift_detected": true
     },
     "day_of_week": {
-      "ks_statistic": 0.8457,
+      "ks_statistic": 0.6427,
       "p_value": 0.0,
       "drift_detected": true
     },
@@ -25,73 +25,73 @@
       "drift_detected": true
     },
     "price_lag_1h": {
-      "ks_statistic": 0.1792,
-      "p_value": 0.0038,
-      "drift_detected": true
-    },
-    "price_lag_2h": {
-      "ks_statistic": 0.1792,
-      "p_value": 0.0038,
-      "drift_detected": true
-    },
-    "price_lag_24h": {
-      "ks_statistic": 0.1374,
-      "p_value": 0.0491,
-      "drift_detected": true
-    },
-    "price_lag_48h": {
-      "ks_statistic": 0.1374,
-      "p_value": 0.0491,
-      "drift_detected": true
-    },
-    "price_lag_168h": {
-      "ks_statistic": 0.4444,
+      "ks_statistic": 0.2955,
       "p_value": 0.0,
       "drift_detected": true
     },
+    "price_lag_2h": {
+      "ks_statistic": 0.2997,
+      "p_value": 0.0,
+      "drift_detected": true
+    },
+    "price_lag_24h": {
+      "ks_statistic": 0.1416,
+      "p_value": 0.0391,
+      "drift_detected": true
+    },
+    "price_lag_48h": {
+      "ks_statistic": 0.2031,
+      "p_value": 0.0006,
+      "drift_detected": true
+    },
+    "price_lag_168h": {
+      "ks_statistic": 0.1434,
+      "p_value": 0.0356,
+      "drift_detected": true
+    },
     "price_rolling_6h_mean": {
-      "ks_statistic": 0.1919,
-      "p_value": 0.0015,
+      "ks_statistic": 0.3166,
+      "p_value": 0.0,
       "drift_detected": true
     },
     "price_rolling_12h_mean": {
-      "ks_statistic": 0.1688,
-      "p_value": 0.0076,
+      "ks_statistic": 0.2913,
+      "p_value": 0.0,
       "drift_detected": true
     },
     "price_rolling_24h_mean": {
-      "ks_statistic": 0.1628,
-      "p_value": 0.0112,
+      "ks_statistic": 0.2601,
+      "p_value": 0.0,
       "drift_detected": true
     },
     "price_rolling_6h_std": {
-      "ks_statistic": 0.2509,
+      "ks_statistic": 0.3162,
       "p_value": 0.0,
       "drift_detected": true
     },
     "price_rolling_24h_std": {
-      "ks_statistic": 0.2457,
-      "p_value": 0.0,
+      "ks_statistic": 0.2255,
+      "p_value": 0.0001,
       "drift_detected": true
     },
     "temperature_c": {
-      "ks_statistic": 0.3582,
+      "ks_statistic": 0.4313,
       "p_value": 0.0,
       "drift_detected": true
     },
     "wind_speed_ms": {
-      "ks_statistic": 0.551,
-      "p_value": 0.0,
+      "ks_statistic": 0.1626,
+      "p_value": 0.0114,
       "drift_detected": true
     },
     "cloud_cover_pct": {
-      "ks_statistic": 0.922,
+      "ks_statistic": 0.4668,
       "p_value": 0.0,
       "drift_detected": true
     },
     "humidity_pct": {
-      "ks_statistic": 0.4397,
-      "p_value": 0.0,
+      "ks_statistic": 0.189,
+      "p_value": 0.0019,
       "drift_detected": true
     }
   }
